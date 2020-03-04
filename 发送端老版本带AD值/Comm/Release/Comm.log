@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/12/12 15:49:17。
+     1>项目“H:\充电桩\Serial-异步\Serial\Comm\Comm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         H:\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Comm.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Comm.cpp CommDlg.cpp serialport.cpp
+         Comm.cpp
+         CommDlg.cpp
+     1>CommDlg.cpp(299): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 H:\VS2012\VC\include\stdlib.h(909) : 参见“itoa”的声明
+         serialport.cpp
+     1>serialport.cpp(214): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\Comm.res" Comm.rc 
+       Link:
+         H:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\充电桩\Serial-异步\Serial\Release\Comm.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:H:\VS2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"H:\充电桩\Serial-异步\Serial\Release\Comm.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\充电桩\Serial-异步\Serial\Release\Comm.lib" /MACHINE:X86 /SAFESEH Release\Comm.res
+         Release\Comm.obj
+         Release\CommDlg.obj
+         Release\myAlgorithm.obj
+         Release\serialport.obj
+         Release\stdafx.obj
+         Release\debug.obj
+         正在生成代码
+         已完成代码的生成
+         Comm.vcxproj -> H:\充电桩\Serial-异步\Serial\Release\Comm.exe
+     1>已完成生成项目“H:\充电桩\Serial-异步\Serial\Comm\Comm.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.71
