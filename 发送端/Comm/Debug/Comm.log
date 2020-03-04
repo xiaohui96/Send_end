@@ -1,0 +1,44 @@
+﻿生成启动时间为 2020-03-04 17:22:29。
+     1>项目“F:\充电桩\发射端\发送端\Comm\Comm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Comm.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Comm.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Comm.cpp CommDlg.cpp myAlgorithm.cpp serialport.cpp user\debug.cpp
+         debug.cpp
+         serialport.cpp
+         myAlgorithm.cpp
+     1>f:\充电桩\发射端\发送端\comm\myalgorithm.cpp(47): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(554) : 参见“wcstombs”的声明
+         CommDlg.cpp
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(237): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(261): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(285): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(309): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(342): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(389): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(414): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(943): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(967): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(991): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(1015): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(1048): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(1081): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>f:\充电桩\发射端\发送端\comm\commdlg.cpp(1101): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+         Comm.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\Comm.res" Comm.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\充电桩\发射端\发送端\Debug\Comm.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\充电桩\发射端\发送端\Debug\Comm.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\充电桩\发射端\发送端\Debug\Comm.lib" /MACHINE:X86 Debug\Comm.res
+         Debug\Comm.obj
+         Debug\CommDlg.obj
+         Debug\myAlgorithm.obj
+         Debug\serialport.obj
+         Debug\stdafx.obj
+         Debug\debug.obj
+         Comm.vcxproj -> F:\充电桩\发射端\发送端\Debug\Comm.exe
+     1>已完成生成项目“F:\充电桩\发射端\发送端\Comm\Comm.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.14
