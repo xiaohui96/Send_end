@@ -1,0 +1,40 @@
+﻿生成启动时间为 2018/7/11 9:26:25。
+     1>项目“G:\Project\Serial\Serial\Comm\Comm.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“G:\Project\Serial\Serial\StaticRelease\”。
+       InitializeBuildStatus:
+         正在创建“StaticRelease\Comm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"StaticRelease\Comm.pch" /Fo"StaticRelease\\" /Fd"StaticRelease\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"StaticRelease\Comm.pch" /Fo"StaticRelease\\" /Fd"StaticRelease\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Comm.cpp CommDlg.cpp myAlgorithm.cpp serialport.cpp user\debug.cpp
+         Comm.cpp
+         CommDlg.cpp
+         myAlgorithm.cpp
+     1>myAlgorithm.cpp(47): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : 参见“wcstombs”的声明
+         serialport.cpp
+         debug.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IStaticRelease\ /nologo /fo"StaticRelease\Comm.res" Comm.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Project\Serial\Serial\StaticRelease\Comm.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d331d.lib opencv_core331d.lib opencv_dnn331.lib opencv_features2d331d.lib opencv_flann331d.lib opencv_highgui331d.lib opencv_imgcodecs331d.lib opencv_imgproc331d.lib opencv_ml331d.lib opencv_objdetect331d.lib opencv_photo331d.lib opencv_shape331d.lib opencv_stitching331d.lib opencv_superres331d.lib opencv_video331d.lib opencv_videoio331d.lib opencv_videostab331d.lib /MANIFEST /ManifestFile:"StaticRelease\Comm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Project\Serial\Serial\StaticRelease\Comm.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Project\Serial\Serial\StaticRelease\Comm.lib" /MACHINE:X86 StaticRelease\Comm.res
+         StaticRelease\Comm.obj
+         StaticRelease\CommDlg.obj
+         StaticRelease\myAlgorithm.obj
+         StaticRelease\serialport.obj
+         StaticRelease\stdafx.obj
+         StaticRelease\debug.obj
+         正在生成代码
+         已完成代码的生成
+         Comm.vcxproj -> G:\Project\Serial\Serial\StaticRelease\Comm.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Project\Serial\Serial\StaticRelease\Comm.exe;#1" /manifest StaticRelease\Comm.exe.intermediate.manifest "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“StaticRelease\Comm.unsuccessfulbuild”。
+         正在对“StaticRelease\Comm.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Project\Serial\Serial\Comm\Comm.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.59
